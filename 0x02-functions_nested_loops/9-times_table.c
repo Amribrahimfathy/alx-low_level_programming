@@ -3,6 +3,7 @@
 /**
  * time_table - prints the 9 times table
  *
+ * Description: print the time table
  * Example table
  * 0, 0, 0, 0, ..
  * 0, 1, 2, 3, ..
