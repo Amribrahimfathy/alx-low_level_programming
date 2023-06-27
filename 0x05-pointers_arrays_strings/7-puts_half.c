@@ -2,7 +2,7 @@
 
 /**
  * puts_half - function that prints half of a string,
- * followed by a new line.
+ *followed by a new line.
  *
  * @str: This is the input string
  */
@@ -15,7 +15,7 @@ void puts_half(char *str)
 	while (str[full_string] != '\0')
 		full_string++;
 
-	half_string full_string / 2;
+	half_string = full_string / 2;
 
 	if (full_string % 2 == 1)
 		half_string++;
