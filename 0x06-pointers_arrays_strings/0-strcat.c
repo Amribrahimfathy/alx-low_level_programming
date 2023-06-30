@@ -1,10 +1,11 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _stract - function that concatenates two strings.
- * @dest: destination string pointer.
- * @src: source string pointer.
- * Return: pointer to destination string.
+ * _stract - concatenates two strings
+ * @dest: the destination string
+ * @src: source string
+ * Return: pointer to destination string
  */
 
 char *_strcat(char *dest, char *src)
