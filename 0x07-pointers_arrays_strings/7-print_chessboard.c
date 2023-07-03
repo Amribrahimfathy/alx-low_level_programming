@@ -1,3 +1,4 @@
+#include <unistd>
 #include "main.h"
 
 /**
@@ -8,12 +9,14 @@
 
 void print_chessboard(char (*a)[8])
 {
-	int i, n;
+	int itr, jtr;
 
-	for (i = 0; i < B; i++)
+	for (itr = 0; itr < 8; itr++)
 	{
-		for (n = 0; n < 8; n++)
-			_putchar(a[i][n]);
+		for (jtr = 0; jtr < 8; jtr++)
+		{
+			_putchar(a[itr][jtr]);
+		}
 		_putchar('\n');
 	}
 }
