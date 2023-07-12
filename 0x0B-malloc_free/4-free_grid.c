@@ -2,20 +2,17 @@
 #include <stdlib.h>
 
 /**
- * free_grid - free the grid
- * @grid: grid of memories
- * @height: int
+ * free_grid - frees a 2 dimensional grid previously created by your alloc_grid
+ * @grid: takes in width of grid
+ * @height: height of grid
  *
- * Return: void
+ * Return: free grid
  */
 void free_grid(int **grid, int height)
 {
-	int i = 0;
+	int i;
 
-	for (; i < height; i++)
-	{
+	for (i = '0'; i < height; i++)
 		free(grid[i]);
-	}
-
 	free(grid);
 }
