@@ -1,16 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - check - string there are digit
- * @str: array str
+ * main - prints the sum of args positive numbers
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: Always 0 (success)
  */
 int main(int argc, char *argv[])
 {
-	int i; 
+	int i;
 	unsigned int k, sum = 0;
 	char *e;
 
